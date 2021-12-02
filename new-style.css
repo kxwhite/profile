@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;700&display=swap');
+
+@media(max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+@media(max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media(max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+/* #banner {
+  text-align: center;
+  /* background-image: url("https://picsum.photos/id/1015/1000/600"); */
+  /* background: linear-gradient(90deg, rgba(252,62,62,0.5) 50%, rgba(252,176,69,0.5) 100%); */
+  /* background: linear-gradient(300deg, rgba(174,238,232,1) 0%, rgba(148,187,233,1) 100%); */
+  /* background-size: cover;
+  padding: 100px;
+} */
+
+body {
+  background-image: url("https://picsum.photos/id/184/4288/2848");
+  background-size: cover;
+}
+
+h1 {
+  color: white;
+  font-family: 'Poppins';
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 80px;
+  margin: 10px 10px 30px 10px;
+}
+h2 {
+  color: salmon;
+  font-family: 'Poppins';
+  font-weight: lighter;
+  font-size: 16px;
+}
+
+h3 {
+  color: white;
+  font-family: 'Poppins';
+  font-size: 16px;
+  padding-bottom: 10px;
+  margin: 10px;
+}
+
+/* Image Left */
+
+.card-text-left {
+  justify-content: space-evenly;
+  text-align: left;
+  color: #021425;
+  font-family: 'Poppins';
+  padding: 40px 4px 5px 50px;
+  margin: 0px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.card-img-left {
+  background-image: url("https://picsum.photos/id/103/2592/1936");
+  width: 250px;
+  border-radius: 8px;
+  margin: 10px 50px 30px 30px;
+  float: left;
+}
+
+.card-img-left:hover {
+  background-image: url("https://picsum.photos/id/103/2592/1936");
+  width: 260px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.1);
+  margin: 10px 50px 30px 30px;
+  float: left;
+}
+
+
+
+.fas {
+  display: inline-block;
+  font-size: 10px;
+  /* padding: 0 10px 20px 400px; */
+  /* padding: 10px; */
+}
+
+.fas p {
+  display: inline-block;
+  font-family: 'Poppins';
+  font-size: 10px;
+  /* padding: 0 300px 50px 10px; */
+  padding: 4px;
+  margin: 0px 0px 60px 0px;
+}
+
+/* Image Right */
+
+.card-text-right {
+  justify-content: space-evenly;
+  text-align: right;
+  color: #021425;
+  font-family: 'Poppins';
+  padding: 40px 40px 5px 4px;
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.card-img-right {
+  background-image: url("https://picsum.photos/id/1036/4608/3072");
+  width: 250px;
+  border-radius: 8px;
+  margin: 10px 30px 30px 50px;
+  float: right;
+}
+
+.card-img-right:hover {
+  background-image: url("https://picsum.photos/id/1036/4608/3072");
+  width: 260px;
+  border-radius: 8px;
+  margin: 10px 30px 30px 50px;
+  float: right;
+}
+
+.fas {
+  display: inline-block;
+  font-size: 10px;
+  /* padding: 0 10px 20px 400px; */
+  /* padding: 10px; */
+}
+
+.fas p {
+  display: inline-block;
+  font-family: 'Poppins';
+  font-size: 10px;
+  /* padding: 0 300px 50px 10px; */
+  padding: 4px;
+  margin: 0 0 60px;
+}
+
+
+#banner > p {
+  font-family: 'Open Sans';
+  text-align: left;
+  color: white;
+  font-size: 16px;
+  margin: 10px 70px 30px 10px;
+}
+
+img {
+  width: 75px;
+  border-radius: 37.5px;
+  margin: 10px;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.boarder-white {
+  padding: 40px;
+  margin: 20 20px 0px 20px;
+  border-radius: 8px;
+  border: 14px solid white;
+}
+
+.card-white {
+  background: #ffffff;
+  padding: 40px;
+  margin: -8px 20px 20px 20px;
+}
+
+footer {
+  background: #ffffff;
+  padding: 40px;
+  margin: -20px 20px 20px 20px;
+  text-align: center;
+}
+
+.btn-white {
+  text-decoration: none;
+  color: #3f395c;
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: bold;
+  background-color: white;
+  padding: 8px 24px;
+  margin: 10px;
+  border-radius: 4px;
+}
+
+.btn-white:hover {
+  background-color: rgb(255, 231, 228);
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0 20px;
+  font-size: 30px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.social-grey {
+  text-decoration: none;
+  color: #6e678d83;
+  font-size: 40px;
+}
+
+.social-grey:hover {
+  text-decoration: none;
+  color: #5e548e8a;
+}
